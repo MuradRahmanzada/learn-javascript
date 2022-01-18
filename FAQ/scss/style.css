@@ -1,0 +1,62 @@
+@import url("https://fonts.googleapis.com/css2?family=Mulish:wght@400;600;700;800&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  font-family: 'Mulish',sans-serif;
+  background-color: #fbe6df;
+}
+
+body h1 {
+  text-align: center;
+  margin: 50px 0 30px;
+}
+
+.faq-container {
+  max-width: 700px;
+  margin: 0 auto;
+}
+
+.faq-container .faq {
+  border: 1px solid #9fa48a;
+  background: transparent;
+  border-radius: 15px;
+  padding: 20px 30px;
+  margin: 20px 20px;
+  position: relative;
+  overflow: hidden;
+  -webkit-transition: all 0.3s ease-in;
+  transition: all 0.3s ease-in;
+  cursor: pointer;
+}
+
+.faq-container .faq i {
+  position: absolute;
+  top: 2.5rem;
+  right: 3rem;
+}
+
+.faq-container .faq .faq-title {
+  font-size: 1.4rem;
+  margin-bottom: 2rem;
+}
+
+.faq-container .faq .faq-text {
+  display: none;
+}
+
+.faq-container .active {
+  background-color: #fff;
+  -webkit-box-shadow: 0 3px 6px rgba(0, 0, 0, 0.1), 0 3px 6px rgba(0, 0, 0, 0.1);
+          box-shadow: 0 3px 6px rgba(0, 0, 0, 0.1), 0 3px 6px rgba(0, 0, 0, 0.1);
+  min-height: 150px;
+}
+
+.faq-container .active .faq-text {
+  display: block;
+}
+/*# sourceMappingURL=style.css.map */
