@@ -1,0 +1,144 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins',sans-serif;
+}
+
+.main{
+    width: 100%;
+    height: 100%;
+    background-image: url(bg.jpg);
+    position: absolute;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.form-box{
+    width: 380px;
+    height: 480px;
+    position: relative;
+    background-color: rgba(255, 255, 255, 0.842);
+    box-shadow: 0 0 20px 9px #6865641e;
+    border-radius: 35px;
+    margin: 6% auto;
+    padding: 10px;
+    overflow: hidden;
+}
+
+.button-box{
+    width: 220px;
+    margin: 35px auto;
+    position: relative;
+    box-shadow: 0 0 20px 9px #220d051a;
+    border-radius: 35px;
+}
+
+.buttonlar{
+    position: relative;
+    padding: 10px 30px;
+    border: none;
+    background: transparent;
+    font-size: 13px;
+    font-weight: bolder;
+    cursor: pointer;
+    outline: none;
+}
+
+#btn{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 110px;
+    height: 100%;
+    background: linear-gradient(to right, #1c1c2e, #087fce);
+    border-radius: 35px;
+    border: none;
+    transition: 0.5s;
+}
+
+.button-box button:nth-child(2){
+    color: #fff;
+}
+
+.social-icons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.social-icons lottie-player {
+    width: 40px;
+    margin: 0px 12px;
+    cursor: pointer;
+}
+
+.inputlar{
+    position: absolute;
+    top: 180px;
+    width: 280px;
+    transition: .5s;
+}
+
+.input-field{
+    width: 100%;
+    padding: 10px 0;
+    border: none;
+    margin: 5px 0;
+    background: transparent;
+    border-bottom: 1px solid rgba(151, 153 , 153, 0.705);
+    outline: none;
+}
+
+.submit-btn{
+    display: block;
+    width: 85%;
+    padding: 10px;
+    border: none;
+    background: linear-gradient(to right, #1c1c2e, #087fce);
+    border-radius: 35px;
+    cursor: pointer;
+    color: #fff;
+    font-size: 15px;
+    font-weight: 600;
+    margin: auto;
+    outline: none;
+}
+
+.inputlar a{
+    display: inline-block;
+    text-decoration: none;
+    color: #777;
+    margin: 30px 10px 30px 0px ;
+    font-size: 12px;
+}
+
+#Login{
+    left: 50px;
+}
+
+#Register{
+    left: 450px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
