@@ -1,0 +1,40 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    background: #fdfdfd;
+    transition: 0.5s all ease;
+}
+
+.container{
+    width: 50%;
+    margin: 5rem auto;
+    text-align: center;
+
+    .dark-container{
+        width: 3rem;
+        height: 3rem;
+        position: fixed;
+        bottom: 7rem;
+        right: 10rem;
+        border-radius: 50%;
+        background-color: #222831;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 1.5rem;
+        cursor: pointer;
+
+        .fa-adjust{
+            font-size: 1.5rem;
+            color: white;
+        }
+    }
+
+    .text-container p{
+        line-height: 1.8rem;
+    }
+}
