@@ -1,0 +1,51 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.container{
+    width: 1000px;
+    height: 700px;
+    position: relative;    
+    img{
+        width: 100%;
+    }
+
+    #right{
+        position: absolute;
+        top: 45%;
+        right: 0;
+        margin-right: 1rem;
+        border: none;
+        background: transparent;
+        cursor: pointer;
+
+        i{
+            font-size: 2rem;
+            color: #fff;
+        }
+    }
+
+    #left{
+        position: absolute;
+        left: 0;
+        top: 45%;
+        margin-left: 1rem;
+        border: none;
+        background: transparent;
+        cursor: pointer;
+
+        i{
+            font-size: 2rem;
+            color: #fff;
+        }
+    }
+}
